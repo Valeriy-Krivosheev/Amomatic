@@ -74,7 +74,7 @@
     justify-content: space-between;
   }
   &__item {
-    margin-right: 32px;
+    margin-right: 25px;
   }
   &__link {
     color: #ffffff;
@@ -87,6 +87,7 @@
     cursor: pointer;
     color: #ffffff;
     padding: 15px 35px;
+    margin-right: 5px;
     &-media {
       display: none;
     }
@@ -202,4 +203,5 @@
 @import "burners";
 @import "amomatic160sm";
 @import "techno";
+@import "service";
 @import "media";
