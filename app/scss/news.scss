@@ -1,0 +1,11 @@
+.news {
+	&__content {
+		flex-wrap: wrap;
+		justify-content: left;
+	}
+	&__block {
+		width: 300px;
+		margin-bottom: 40px;
+		margin-right: 20px;
+	}
+}

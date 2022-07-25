@@ -34,6 +34,41 @@
           d="M9.788,7.985 L15.449,13.645 C15.884,14.80 15.884,14.786 15.449,15.221 C15.14,15.656 14.308,15.656 13.873,15.221 L8.212,9.560 L2.552,15.221 C2.117,15.656 1.411,15.656 0.976,15.221 C0.541,14.786 0.541,14.80 0.976,13.645 L6.637,7.985 L0.976,2.324 C0.541,1.889 0.541,1.183 0.976,0.748 C1.411,0.313 2.117,0.313 2.552,0.748 L8.212,6.409 L13.873,0.748 C14.308,0.313 15.14,0.313 15.449,0.748 C15.884,1.183 15.884,1.889 15.449,2.324 L9.788,7.985 Z" />
       </symbol>
     </svg>
+    <!-- POPUP -->
+<div class="popup__bg"> 
+  <form class="popup">
+    <h3 class="connect__title popup__title">Обратный звонок</h3>
+    <div class="form__inner popup__inner">
+      <div class="form__item form-inputs">
+        <div class="form__items popup__items">
+          <div class="form__box">
+            <label for="name">
+              <input class="form__input" type="text" id="name" placeholder="Имя*" required>
+            </label>
+            <label for="tel">
+              <input class="form__input" type="tel" id="tel" placeholder="Телефон*" required>
+            </label>
+          </div>
+          <div class="form__box">
+            <label for="email">
+              <input class="form__input popup__input--mail" type="email" placeholder="E-mail" id="email">
+            </label>
+          </div>
+          <div class="form__box">
+            <label for="message">
+              <input class="form__input popup__message" type="text" id="message" placeholder="Сообщение">
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form__item form-btn popup__button">
+        <button class="form__btn popup__btn" type="submit">Отправить</button>
+      </div>
+    </div>
+  </form>
+</div>  
+
+<!-- POPUP -->
 <header class="header header-modules">
   <nav class="nav">
     <div class="container">
@@ -58,7 +93,7 @@
             <a href="#" class="nav__link">Запчасти и сервис</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Новости</a>
+            <a href="news.html" class="nav__link">Новости</a>
           </li>
           <li class="nav__item">
             <a href="contacts.html" class="nav__link">Контакты</a>
@@ -114,7 +149,7 @@
               <a href="#" class="burger__link">Ресайклинг асфальта</a>
             </div>
           </div>
-          <button class="nav__btn burger__btn">
+          <button class="nav__btn burger__btn open">
             Обратная связь
           </button>
         </div>
@@ -123,10 +158,10 @@
             <use xlink:href="#menu"></use>
           </svg>
         </button>
-        <button class="nav__btn">
+        <button class="nav__btn open">
           Обратный звонок
         </button>
-        <button class="nav__btn-media">
+        <button class="nav__btn-media open">
           <svg width="20" height="20">
             <use xlink:href="#phone"></use>
           </svg>
@@ -508,7 +543,7 @@
                 <a href="#">Спецификация под заказ</a>
               </li>
             </ul>
-            <button class="footer-top__btn">Обратная связь</button>
+            <button class="footer-top__btn open">Обратная связь</button>
           </div>
         </div>
   
